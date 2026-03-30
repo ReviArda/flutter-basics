@@ -1,0 +1,10 @@
+# This file configures the static analysis as used by the cupertino_lints
+# and flutter_lints packages.
+
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_print: false
